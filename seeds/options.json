@@ -1,0 +1,133 @@
+[
+  {
+    "option": "Dragonborn",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Dwarf",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Elf",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Gnome",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Half Elf",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Halfling",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Half Orc",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Human",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Tiefling",
+    "image_src": "./assets/baseColor.PNG",
+    "question_id": 1
+  },
+  {
+    "option": "Barbarian",
+    "image_src": "./assets/CharacterLayers/Paint Layer 10.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Bard",
+    "image_src": "./assets/CharacterLayers/Paint Layer 11.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Cleric",
+    "image_src": "./assets/CharacterLayers/Paint Layer 12.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Druid",
+    "image_src": "./assets/CharacterLayers/Paint Layer 13.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Fighter",
+    "image_src": "./assets/CharacterLayers/Paint Layer 14.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Monk",
+    "image_src": "./assets/CharacterLayers/Paint Layer 15.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Paladin",
+    "image_src": "./assets/CharacterLayers/Paint Layer 4.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Ranger",
+    "image_src": "./assets/CharacterLayers/Paint Layer 9.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Rogue",
+    "image_src": "./assets/CharacterLayers/Paint Layer 16.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Sorcerer",
+    "image_src": "./assets/CharacterLayers/Paint Layer 17.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Warlock",
+    "image_src": "./assets/CharacterLayers/Paint Layer 18.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "Wizard",
+    "image_src": "./assets/CharacterLayers/Paint Layer 7.PNG",
+    "question_id": 2
+  },
+  {
+    "option": "background1",
+    "image_src": "./assets/Backgrounds/9DSFGl.jpg",
+    "question_id": 3
+  },
+  {
+    "option": "background2",
+    "image_src": "./assets/Backgrounds/AUzTDw.jpg",
+    "question_id": 3
+  },
+  {
+    "option": "background3",
+    "image_src": "./assets/Backgrounds/jHZbQ5.jpg",
+    "question_id": 3
+  },
+  {
+    "option": "background4",
+    "image_src": "./assets/Backgrounds/KBE1vP.jpg",
+    "question_id": 3
+  },
+  {
+    "option": "background5",
+    "image_src": "./assets/Backgrounds/x5geBD.jpg",
+    "question_id": 3
+  }
+  
+]

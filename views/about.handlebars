@@ -1,0 +1,34 @@
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kristopherbaily'});return false;">Book Appt</a>
+<!-- Calendly link widget end -->
+
+<div class="container" id='form'>
+    {{#each form}}
+    <div class="formCard">
+        <label for="{{this.question}}">{{this.question}}</label>
+        <select class="custom-select" name="{{this.question}}" id="{{this.question}}" "arraySlot":"{{@index}}" onchange="changeFunc(this)">
+            {{#each this.Options}}
+            <option value='{"imgSrc":"{{image_src}}","docId":"{{question_id}}"}'>{{this.option}}</option>
+            {{/each}}
+        </select>
+    </div>
+    {{/each}}
+</div>
+<div class="container" id='leftColumn'>
+    <div id='viewHolder'>
+        <img src="./assets/CharacterLayers/Paint Layer 5.PNG" alt="baseChar" class="viewImg"id="base">
+        {{#each form}}
+        {{#if this.background}}
+        <img src="./assets/Backgrounds/9DSFGl.jpg" alt="Layer {{this.question}}" class="backgroundImg" id="{{this.id}}">
+        {{else}}
+        <img src="./assets/CharacterLayers/blank.png" alt="Layer {{this.question}}" class="viewImg" id="{{this.id}}">
+        {{/if}}
+        {{/each}}
+    </div>
+    <div id='saveEtcButtons'></div>
+</div>
+
+<script src="../javascript/virtuefig.js"></script>
