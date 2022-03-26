@@ -1,58 +1,154 @@
-body{
-    height: 100vh;
-}
 main{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    overflow-x: hidden;
 }
-#form{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content:start;
-    overflow-y: auto;
-    border: 1px solid grey;
-    border-radius: 10px;
-    
+.container-fluid {
+    padding: 0px;
 }
-.formCard{
-    display: flex;
-    flex-direction: column;
-    height: 30px;
-    margin-bottom: 40px;
-    border: 1px solid grey;
-    border-radius: 10px;
+.custom-shape-divider-top-1647923970 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
 }
-#leftColumn{
-    width: 50%;
-}
-#viewHolder{
+
+.custom-shape-divider-top-1647923970 svg {
     position: relative;
-    width: 100%;
-    margin: auto;
-    height: 80%;
-    border: 4px solid grey;
-    border-radius: 10px 10px 0px 0px;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 173px;
 }
-#saveEtcButtons{
-    width: 100%;
-    height: 20%;
-    border: 1px solid grey;
-    border-radius: 0px 0px 10px 10px;
+
+.custom-shape-divider-top-1647923970 .shape-fill {
+    fill: #FFFFFF;
 }
-.viewImg{
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1647923970 svg {
+        width: calc(100% + 1.3px);
+        height: 59px;
+    }
+}
+
+
+.custom-shape-divider-bottom-1647725322 {
     position: absolute;
-    height: 100%;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    object-fit: contain;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
 }
-.backgroundImg{
-    z-index: -1;
+
+.custom-shape-divider-bottom-1647725322 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+    z-index: 2;
+}
+
+.custom-shape-divider-bottom-1647725322 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1647725322 svg {
+        width: calc(100% + 1.3px);
+        height: 59px;
+    }
+}
+.custom-shape-divider-bottom-1648145043 {
     position: absolute;
-    height: 100%;
+    bottom: -1px;
+    left: 0;
     width: 100%;
-    object-fit: cover;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 2;
+}
+
+.custom-shape-divider-bottom-1648145043 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 102px;
+}
+
+.custom-shape-divider-bottom-1648145043 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1648145043 svg {
+        width: calc(201% + 1.3px);
+        height: 102px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1648145043 svg {
+        width: calc(283% + 1.3px);
+        height: 118px;
+    }
+}
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+#card1{
+    box-shadow: none !important;
+   margin-left: 40%;
+   margin-right: 10%;
+
+}
+#card1 > img{
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+    align-self: center;
+    justify-self: center;
+    border-radius: 100%;
 }
